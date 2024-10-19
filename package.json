@@ -1,0 +1,17 @@
+{
+  "name": "searchnxt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashutosh Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "electron": "^32.1.2",
+    "filehound": "^1.17.6"
+  }
+}

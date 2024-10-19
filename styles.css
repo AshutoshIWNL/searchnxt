@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Smooch Sans';
+    src: url('./fonts/SmoochSans-VariableFont_wght.ttf') format('truetype'); /* Adjust the path as necessary */
+    font-weight: 100 900; /* Specify the weight range for variable fonts */
+    font-style: normal; /* Add italic if available */
+}
+
+body {
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.bg-body-mod {
+    background-color: #282828;
+}
+
+.bg-body-mod-2 {
+    background-color: #F5F5DC;
+}
+
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn-gradient {
+    background: linear-gradient(to right, #444, #444); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    transition: background 0.4s, transform 0.3s;
+    border: 1px solid #444;
+}
+
+.btn-gradient:hover {
+    transform: scale(1.08);
+    color: white;
+    border: 1px solid #444;
+}
+
+#results {
+    border: 1px solid #444;
+    border-radius: 5px;
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #282828; /* Darker background for results */
+    margin-top: 10px;
+    color: #f8f9fa; /* Light text color */
+}
+
+#results div {
+    padding: 5px;
+    border-bottom: 1px solid #333; /* Divider between items */
+    transition: background-color 0.3s;
+}
+
+#results div:hover {
+    background-color: #333; /* Slightly lighter on hover */
+}
+
+#results div:last-child {
+    border-bottom: none; /* Remove border from last item */
+}
+
+
+
+/* Custom Scrollbar Styles */
+#results {
+    border: 1px solid #444;
+    border-radius: 5px;
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #282828; /* Darker background for results */
+    margin-top: 10px;
+    color: #f8f9fa; /* Light text color */
+}
+
+/* Scrollbar Styles for Webkit Browsers */
+#results::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+#results::-webkit-scrollbar-track {
+    background: #282828; /* Track color */
+    border-radius: 5px;
+}
+
+#results::-webkit-scrollbar-thumb {
+    background: #948b8b; /* Scrollbar color */
+    border-radius: 5px;
+}
+
+#results::-webkit-scrollbar-thumb:hover {
+    background: #948b8b; /* Hover color */
+}
+
+.file-item {
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #333; /* Dark background for items */
+    transition: background-color 0.3s;
+    display: flex; /* Use flexbox to arrange items in a row */
+    align-items: center; /* Center items vertically */
+}
+
+.file-info {
+    display: flex; /* Flexbox for horizontal layout */
+    flex-wrap: wrap; /* Allow wrapping if necessary */
+    gap: 10px; /* Space between elements */
+}
+
+.file-name {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.file-modified,
+.file-size,
+.file-path {
+    font-size: 0.9em;
+    color: #ccc; /* Light text color */
+}

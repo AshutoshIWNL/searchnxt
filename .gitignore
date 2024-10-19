@@ -1,0 +1,47 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional npm cache directory
+.npm
+
+# Optional Yarn cache directory
+.yarn
+.pnp.*
+
+# Logs
+logs/
+*.log
+logs/*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build directory
+dist/
+build/
+out/
+
+# Electron-specific
+electron-builder.yaml
+electron-builder.json
+release/
+
+# Compiled files
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Static build files
+/static/
+
+# VS Code settings
+.vscode/
