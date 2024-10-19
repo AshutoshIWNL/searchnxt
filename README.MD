@@ -1,4 +1,4 @@
-# Electron Folder Search Tool
+# SearchNxt
 
 A simple Electron.js application that indexes a selected folder and allows users to search through the files in that folder. This is a foundational tool that will be optimized and enhanced with additional features over time.
 
