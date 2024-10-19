@@ -13,8 +13,6 @@ The following improvements and features are planned for future releases:
 
 - **Indexing Optimizations**: Improve indexing performance for large directories.
 - **Advanced Search Capabilities**: Add more complex search options, such as filtering by file type, date range, and size.
-- **Asynchronous Search**: Enhance the search mechanism to support real-time search as the user types.
-- **Persistent Indexing**: Cache indexed data for faster reloading of previously scanned folders.
 - **UI Enhancements**: Refine the user interface for a more polished and intuitive experience.
 
 ## Installation
